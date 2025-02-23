@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Netflix</title>
+    <link rel="stylesheet" href="intro.css">
+</head>
+<body>
+
+    <video id="myVideo" autoplay muted playsinline>
+        <source src="assets/videos/netflix-intro.mp4" type="video/mp4">
+    </video>
+
+    <script>
+        document.getElementById('myVideo').onended = function() {
+            window.location.href = ""; 
+        };
+    </script>
+
+</body>
+</html>
